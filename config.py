@@ -3,7 +3,7 @@ from typing import Dict, List, Optional
 from dotenv import load_dotenv
 
 # 加载环境变量
-load_dotenv("../kafka_to_timescaledb.env")
+load_dotenv("./kafka_to_timescaledb.env")
 
 # 数据库连接配置
 DATABASE_CONFIG = {
