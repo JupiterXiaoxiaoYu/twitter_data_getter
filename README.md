@@ -19,11 +19,8 @@
 | `tweets` | 推文数据表 | `created_at_ts` |
 | `replies` | 回复数据表 | `created_at_ts` |
 | `users` | 用户数据表 | `updated_at` |
-| `followers` | 粉丝关系表 | `follower_created_at_ts` |
-| `following` | 关注关系表 | `following_created_at_ts` |
 | `quoted_status_summary` | 引用推文摘要表 | `created_at_ts` |
 | `retweeted_status_summary` | 转发推文摘要表 | `created_at_ts` |
-| `kol_task_status` | KOL任务状态表 | `updated_at` |
 
 ## 安装依赖
 
